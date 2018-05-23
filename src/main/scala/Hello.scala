@@ -1,5 +1,7 @@
 object Hello extends App {
 
-  def greet : String = "hello"
+  def elementreturner(inputs: List[Int]): Int = {
+    3
+  }
 
 }

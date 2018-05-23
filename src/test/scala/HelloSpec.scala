@@ -2,10 +2,10 @@ import org.scalatest._
 
 class HelloSpec extends WordSpec with MustMatchers {
 
-  "Hello" must {
+  "elementreturner" must {
 
-    "say hello" in {
-      Hello.greet mustEqual "hello"
+    "return 3 when given a list of intergers" in {
+      Hello.elementreturner(List(1,2,3,1,2)) mustEqual 3
     }
 
   }
